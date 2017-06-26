@@ -1,0 +1,38 @@
+{
+  "name": "nyt-react",
+  "version": "1.0.0",
+  "description": "a new york times news search with storing features built in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --inline --hot",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsagomez/NYT---REACT.git"
+  },
+  "keywords": [
+    "react",
+    "mongo",
+    "express"
+  ],
+  "author": "Elsa Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsagomez/NYT---REACT/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "homepage": "https://github.com/elsagomez/NYT---REACT#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
